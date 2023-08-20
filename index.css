@@ -134,8 +134,8 @@
 {     
   .startseite-beispielbild {
     bottom: 0px;
-    right: 50px;
-    width: 75%;
+    right: 0px;
+    width: 70%;
     height: auto;
     position: absolute;
   }
@@ -318,6 +318,10 @@
     font-stretch: normal;
     text-decoration: none;
   }
+
+  .startseite-text38 {
+    size: 50px;
+  }
 }
 
 .startseite-button-resultate {
@@ -353,7 +357,7 @@
 }
 .startseite-startseite2 {
   width: 100%;
-  height: 80vh;
+  height: 2350px;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -453,6 +457,123 @@
   text-decoration: none;
 }
 
+.boxOne
+  {
+    display: flex;
+    gap: 80px;
+  }
+  .boxTwo
+  {
+    display: flex;
+    gap: 80px;
+  }
+
+@media screen and (max-width: 800px) 
+{     
+  .startseite-text14 {
+
+    color: var(--dl-color-default-hintergrundfarbe);
+    font-size: 18px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Tektur;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .startseite-text39 {
+    color: red;
+  }
+
+  /*
+  .boxOne
+  {
+    display: flex;
+    gap: 20px;
+  }
+  .boxTwo
+  {
+    display: flex;
+    gap: 20px;
+  }
+  */
+
+  .startseite-rechtecke {
+    gap: 0px;
+    top: 130px;
+    left: 0px;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+
+  .startseite-abnehmen {
+    width: 2em;
+    height: 2em;
+    display: flex;
+    
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .startseite-rectangle10 {
+    top: 0px;
+    left: 0px;
+    width: 20em;
+    height: 480px;
+    position: absolute;
+  }
+
+  .startseite-muskelaufbau {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .startseite-rectangle11 {
+    top: 0px;
+    left: 0px;
+    width: '100';
+    height: '100';
+    position: absolute;
+  }
+
+  .startseite-text36 {
+    top: 0px;
+    left: 22px;
+    color: var(--dl-color-default-schriftfarewei);
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Tektur;
+    font-weight: 200;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .startseite-text38 {
+    top: 0px;
+    left: 34px;
+    color: rgba(251, 255, 248, 1);
+    height: auto;
+    position: absolute;
+    text-align: left;
+    line-height: normal;
+  }
+
+}
+
 .startseite-rechtecke {
   gap: 80px;
   top: 130px;
@@ -476,7 +597,7 @@
 .startseite-rectangle10 {
   top: 0px;
   left: 0px;
-  width: 320px;
+  width: 320;
   height: 480px;
   position: absolute;
 }
@@ -936,6 +1057,23 @@
   justify-content: center;
   background-color: var(--dl-color-default-sekundrfarbe);
 }
+
+@media screen and (max-width: 912px) 
+{     
+  .buttongesamtcolor-buttongesamtcolor {
+    gap: 14px;
+    width: 210px;
+    height: auto;
+    display: flex;
+    padding: 8px 32px;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 80px;
+    justify-content: center;
+    background-color: var(--dl-color-default-sekundrfarbe);
+  }
+}
+
 
 .buttongesamtcolor-buttongesamtcolor:hover {
   
