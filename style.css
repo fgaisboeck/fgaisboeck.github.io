@@ -111,6 +111,18 @@
   font-weight: 400px;
   font-stretch: normal;
 }
+
+@media screen and (max-width: 800px) 
+{     
+  .ÜberschriftGroß {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Tektur;
+    font-weight: 400px;
+    font-stretch: normal;
+  }
+}
+
 .ÜberschriftMittel {
   font-size: 64px;
   font-style: normal;

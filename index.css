@@ -58,7 +58,7 @@
 }
 .startseite-hero-rechteck {
   right: 0px;
-  width: 457px;
+  width: 30%;
   height: 100vh;
   position: absolute;
 }
@@ -126,14 +126,26 @@
   bottom: 0px;
   right: 200px;
   width: 30%;
-  height: 90vh;
+  height: auto;
   position: absolute;
 }
+
+@media screen and (max-width: 912px) 
+{     
+  .startseite-beispielbild {
+    bottom: 0px;
+    right: 50px;
+    width: 75%;
+    height: auto;
+    position: absolute;
+  }
+}
+
 .startseite-auto-layout-frame {
-  gap: 127px;
+  gap: 10%;
   top: 10px;
   left: 30px;
-  width: 1037px;
+  width: 80%px;
   display: flex;
   position: absolute;
   align-items: center;
@@ -143,17 +155,55 @@
   gap: 83px;
   display: flex;
   align-items: flex-start;
+  width: 100%;
 }
+
+@media screen and (max-width: 912px) 
+{     
+  .startseite-kopfzeile
+       {
+        gap: 0px;
+       }
+}
+
+
 .startseite-logo {
   width: 140px;
   height: 161px;
 }
+
+@media screen and (max-width: 912px) 
+{     
+  .startseite-logo {
+    width: 50px;
+    height: auto
+  }
+
+  .folgMir
+  {
+    display: none;
+  }
+}
+
+
+
+
 .startseite-links-buttons {
   gap: 110px;
   display: flex;
   padding: 35px 0 0;
   align-items: center;
 }
+
+@media screen and (max-width: 912px) 
+{     
+  .startseite-links-buttons
+       {
+        gap: 15px;
+        padding: 10px 0 0;
+       }
+}
+
 .startseite-text {
   color: var(--dl-color-default-schriftfarewei);
   height: auto;
@@ -165,6 +215,14 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+}
+
+@media screen and (max-width: 800px) 
+{     
+       .startseite-text
+       {
+         font-size: 16px;
+       }
 }
 
 .startseite-text:hover {
@@ -245,6 +303,23 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
+@media screen and (max-width: 800px) 
+{     
+  .startseite-text10 {
+    color: var(--dl-color-default-schriftfarewei);
+    height: auto;
+    font-size: 40px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Tektur 'Courier New', Courier, monospace;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+}
+
 .startseite-button-resultate {
   gap: 14px;
   display: flex;
