@@ -237,7 +237,6 @@
 }
 
 
-
 .startseite-text02 {
   color: var(--dl-color-default-schriftfarewei);
   height: auto;
@@ -866,6 +865,14 @@
   text-decoration: none;
 }
 
+.startseite-text68 {
+  color: var(--dl-color-default-schriftfarewei);
+  width: 236px;
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+
 @media screen and (max-width: 912px) 
 {     
   .startseite-text66 {
@@ -880,15 +887,18 @@
     font-stretch: normal;
     text-decoration: none;
   }
+
+  .startseite-text68 {
+    color: var(--dl-color-default-schriftfarewei);
+    width: 236px;
+    height: auto;
+    text-align: left;
+    line-height: normal;
+  }
+
 }
 
-.startseite-text68 {
-  color: var(--dl-color-default-schriftfarewei);
-  width: 236px;
-  height: auto;
-  text-align: left;
-  line-height: normal;
-}
+
 .startseite-startseite4 {
   gap: 75px;
   width: 100%;
