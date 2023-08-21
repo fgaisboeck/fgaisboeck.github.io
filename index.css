@@ -217,7 +217,7 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 800px) 
+@media screen and (max-width: 912px) 
 {     
        .startseite-text
        {
@@ -304,38 +304,7 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 800px) 
-{     
-  .startseite-text10 {
-    color: var(--dl-color-default-schriftfarewei);
-    height: auto;
-    font-size: 40px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Tektur 'Courier New', Courier, monospace;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
 
-  .startseite-text38 {
-    size: 50px;
-  }
-
-  .startseite-startseite2 {
-    width: 100%;
-    height: 2350px;
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-    background-color: var(--dl-color-default-hintergrundfarbe);
-  }
-
-
-}
 
 .startseite-button-resultate {
   gap: 14px;
@@ -370,7 +339,7 @@
 }
 .startseite-startseite2 {
   width: 100%;
-  height: 80vh;
+  height: 82vh;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -378,6 +347,34 @@
   flex-shrink: 0;
   background-color: var(--dl-color-default-hintergrundfarbe);
 }
+
+@media screen and (max-width: 912px) 
+{     
+  .startseite-text10 {
+    color: var(--dl-color-default-schriftfarewei);
+    height: auto;
+    font-size: 40px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Tektur 'Courier New', Courier, monospace;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .startseite-text38 {
+    size: 50px;
+  }
+
+  .startseite-startseite2 {
+    height: 2350px;
+  }
+
+
+}
+
+
 .startseite-starseite-kreise {
   gap: 10px;
   top: -348.000244140625px;
@@ -481,7 +478,7 @@
     gap: 80px;
   }
 
-@media screen and (max-width: 800px) 
+@media screen and (max-width: 912px) 
 {     
   .startseite-text14 {
 
@@ -840,7 +837,6 @@
   width: 100%;
   gap: 10px;
   display: flex;
-  padding: 20px 562px;
   overflow: hidden;
   align-items: center;
   flex-direction: column;
@@ -1135,4 +1131,9 @@
 .vector-vector {
   width: 25px;
   height: 29px;
+}
+
+body
+{
+  background-color: var(--dl-color-default-hintergrundfarbe);
 }
