@@ -16,18 +16,35 @@
   flex-shrink: 0;
   background-color: var(--dl-color-default-hintergrundfarbe);
 }
+
+@media screen and (max-width: 912px) 
+{     
+  .framebermich1600px-framebermich1600px {
+  width: 100%;
+  height: 2000px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-default-hintergrundfarbe);
+}
+
+}
+
+
 .framebermich1600px-rechteck-links {
   top: -115px;
   left: -258.7655029296875px;
   width: 759px;
-  height: 1400px;
+  height: 1100px;
   position: absolute;
 }
 .framebermich1600px-rechteck-rechts {
   top: -131px;
   left: 800px;
-  width: 1300px;
-  height: 1400px;
+  width: 1100px;
+  height: 1100px;
   position: absolute;
 }
 .framebermich1600px-rechteck-mitte {
@@ -53,6 +70,50 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
+@media screen and (max-width: 1300px) 
+{     
+  
+  .framebermich1600px-text {
+    top: 200px;
+    left: 450px;
+    right: 200px;
+    color: rgba(119, 206, 37, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Tektur;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+}
+
+@media screen and (max-width: 912px) 
+{     
+  .framebermich1600px-text {
+    top: 100px;
+    left: 175px;
+    right: 25px;
+    color: rgba(119, 206, 37, 1);
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Tektur;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+}
+
 .framebermich1600px-text01 {
   color: var(--dl-color-default-primrfarbe);
 }
@@ -63,12 +124,24 @@
   top: 10px;
   left: 30px;
   width: 100%;
-  height: 161.1354522705078px;
+  height: 120.1354522705078px;
   display: flex;
   position: absolute;
   align-items: flex-start;
   flex-shrink: 0;
 }
+
+@media screen and (max-width: 912px) 
+{     
+  .framebermich1600px-kopfzeile
+       {
+        gap: 0px;
+        padding-left: 0px;
+        margin-right: 35px;
+        left: 0px;
+       }
+}
+
 .framebermich1600px-logo {
   top: 0px;
   left: 0px;
@@ -76,6 +149,36 @@
   height: 161px;
   position: absolute;
 }
+
+@media screen and (max-width: 912px) 
+{     
+  .framebermich1600px-logo {
+    width: 50px;
+    height: auto;
+    }
+
+  #folgMir
+  {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 912px) 
+{     
+  .framebermich1600px-framebermich1600px {
+  width: 100%;
+  height: 1130px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-default-hintergrundfarbe);
+}
+
+}
+
+
 .framebermich1600px-links-buttons {
   gap: 110px;
   top: 27px;
@@ -85,6 +188,19 @@
   position: absolute;
   align-items: center;
 }
+
+@media screen and (max-width: 912px) 
+{     
+  .framebermich1600px-links-buttons
+       {
+        gap: 10px;
+        padding: 10px 0 0;
+        left: 50px;
+        top: 5px;
+      }
+}
+
+
 .framebermich1600px-text-header {
   color: var(--dl-color-default-schriftfarewei);
   height: auto;
@@ -97,6 +213,16 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
+@media screen and (max-width: 912px) 
+{     
+       .framebermich1600px-text-header
+       {
+         font-size: 16px;
+
+       }
+}
+
 
 .framebermich1600px-text-header:hover {
   color: var(--dl-color-default-tertirfarbe);
@@ -158,6 +284,19 @@
   height: 901px;
   position: absolute;
 }
+
+@media screen and (max-width: 912px) 
+{     
+  .framebermich1600px-beispielbild {
+    top: 200px;
+    left: 25px;
+    width: 150px;
+    height: auto;
+    position: absolute;
+  }
+
+}
+
 .framebermich1600px-layer-blur2 {
   top: 514px;
   left: 457px;
@@ -186,6 +325,26 @@
   justify-content: center;
   background-color: var(--dl-color-default-tertirfarbe);
 }
+
+@media screen and (max-width: 912px) 
+{     
+  .framebermich1600px-startseite5 {
+    top: 800px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    padding: 8px 30px;
+    overflow: hidden;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--dl-color-default-tertirfarbe);
+  }
+
+}
+
 .framebermich1600px-startseite-text {
   gap: 24px;
   display: flex;
