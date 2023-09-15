@@ -283,6 +283,7 @@
   flex-direction: column;
 }
 .startseite-frame9 {
+  padding-top: 70px;
   gap: -16px;
   display: flex;
   align-items: flex-start;
@@ -300,13 +301,11 @@
   font-size: 48px;
   font-style: Regular;
   text-align: left;
-  font-family: Tektur 'Courier New', Courier, monospace;
-  font-weight: 400;
+  font-family: Tektur;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
 }
-
 
 
 .startseite-button-resultate {
@@ -342,7 +341,7 @@
 }
 .startseite-startseite2 {
   width: 100%;
-  height: 82vh;
+  height: 90vh;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -356,7 +355,7 @@
   .startseite-text10 {
     color: var(--dl-color-default-schriftfarewei);
     height: auto;
-    font-size: 40px;
+    font-size: 26px;
     font-style: Regular;
     text-align: left;
     font-family: Tektur 'Courier New', Courier, monospace;
@@ -515,9 +514,9 @@
 
   .startseite-rechtecke {
     gap: 0px;
-    top: 130px;
     left: 0px;
     width: 100%;
+    
     position: absolute;
     align-items: center;
     flex-shrink: 0;
@@ -588,8 +587,8 @@
 }
 
 .startseite-rechtecke {
-  gap: 80px;
-  top: 130px;
+  gap: 50px;
+  margin-top: 165px;
   left: 0px;
   width: 100%;
   display: flex;
@@ -597,6 +596,8 @@
   align-items: center;
   flex-shrink: 0;
   justify-content: center;
+  margin-left: 10px;
+    margin-right: 10px;
   
 }
 .startseite-abnehmen {
@@ -904,7 +905,7 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  padding: 0 50px;
+  
   overflow: hidden;
   position: relative;
   align-items: center;
@@ -1068,6 +1069,7 @@
   height: auto;
   text-align: center;
   line-height: normal;
+  margin-left: 20px;
 }
 
 
@@ -1124,6 +1126,7 @@
 .buttongesamtcolor-buttongesamtcolor:active {
   background-color: var(--dl-color-default-hintergrundfarbe);
   color: var(--dl-color-default-sekundrfarbe);
+  border: 1px solid green;
 }
 
 
