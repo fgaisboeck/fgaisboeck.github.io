@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="public/external/logo4531-t0f5-200w.png">
 
     <style data-tag="reset-style-sheet">
       html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
@@ -93,7 +94,7 @@
             </div>
           -->
             <img
-              src="public/external/beispielbild4529-8f39-800h.png"
+              src="imagesSD/transparentStartImage.png"
               alt="Beispielbild4529"
               class="startseite-beispielbild"
             />
@@ -108,7 +109,7 @@
                   <span class="startseite-text"><a href="#section-programs"><span>Programme</span></a></span>
                   <span class="startseite-text"><a href="#section-results"><span>Resultate</span></a></span>
                   <span class="startseite-text Kopfzeile">
-                    <a href="framebermich1600px.html"><span>Über mich</span></a>
+                    <a href="about.html"><span>Über mich</span></a>
                   </span>
                   <a target="_blank" href="https://www.instagram.com/multi.athlete.coaching/">
                   <div class="startseite-frame3">
@@ -182,6 +183,7 @@
                           hoverTrigger.addEventListener('mousedown', () => {
                             textToChange.style.color = 'green';
                             //image.src = ....grüner pfeil
+                            image.src = 'public/external/vector2418-vi3m.svg';
                           });
 
 
@@ -445,47 +447,87 @@
               }
             
               .slider-container {
-                width: 80%;
-                max-width: 800px;
+                
+                width: 100%;
                 margin: auto;
                 overflow: hidden;
                 position: relative;
+                text-align: center;
+                align-items: center;
+                margin: 0 auto;
               }
             
               .image-slider {
                 display: flex;
                 transition:  transform 0.4s ease-in-out;
+                gap: 100px;
+                width: 100%;
+                margin-bottom: 50px;
+                align-items: center;
+                text-align: center;
+                margin: 10px auto; 
               }
             
               .image {
-                flex: 0 0 200px;
+                
                 overflow: hidden;
                 transition: flex 0.4s ease-in-out;
-                padding-right: 50px;
+                align-items: center;
+                margin: 0 auto;
               }
             
               .image img {
-                width: 100%;
-                height: auto;
+                width: auto;
+                height: 500px;
                 display: block;
+                align-items: center;
               }
             
               .prev, .next {
+                
                 cursor: pointer;
-                position: absolute;
-                top: 50%;
-                transform: translateY(-50%);
-                padding: 10px;
                 font-size: 20px;
+                background-color: var(--dl-color-default-sekundrfarbe);
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border-radius: 10px;
+                width: 35px;
+                color: white;
               }
             
-              .prev {
-                left: 10px;
+              
+              .controlpanel
+              {
+               
+                background-color: var(--dl-color-default-primrfarbe);
+                text-align: center;
+                width: 100px;
+                margin: 0 auto;
+                border-radius: 15px;
+              } 
+
+
+              @media screen and (max-width: 912px) 
+              {     
+                .image img
+                {
+                  height: 175px;
+                }
+
+                
+
+                .image-slider {
+                display: flex;
+                transition:  transform 0.4s ease-in-out;
+                gap: 5px;
+                width: 100%;
+                margin: 0 auto;
+                margin-bottom: 50px;
               }
-            
-              .next {
-                right: 10px;
+
               }
+
+              
             </style>
             <div class="slider-container">
               <div class="image-slider">
@@ -497,25 +539,32 @@
                   <img src="public/external/beispielbild24581-gzlt-300w.png" alt="Image 2">
                 </div>
                 <div class="image">
-                    <img src="public/external/beispielbild34580-7lr-700h.png" alt="Image 3">
-                  </div><div class="image">
-                    <img src="public/external/beispielbild44582-vp7j-300w.png" alt="Image 4">
-                  </div>
+                    <img src="imagesSD/result2.png" alt="Image 3">
+                </div>
+                <div class="image">
+                    <img src="imagesSD/result1.png" alt="Image 4">
+                </div>
             
                 <div class="image">
                   <img src="public/external/beispielbild54583-3j7-300h.png" alt="Image 5">
                 </div>
               </div>
-            
-              <button class="prev" onclick="moveSlider(-1)">&#10094;</button>
-        <button class="next" onclick="moveSlider(1)">&#10095;</button>
+            <div class="overControl">
+              <div class="controlpanel">
+                <button class="prev" onclick="moveSlider(-1)"><</button>
+                <button class="next" onclick="moveSlider(1)">></button>
+              </div>
             </div>
+             
+              
+            </div>
+            
             <script>
         const sliderIndex = 0;
         const imageSlider = document.querySelector(".image-slider");
         const images = document.querySelectorAll(".image");
         const imageWidth = images[0].offsetWidth;
-        const maxIndex = images.length - 1;
+        const maxIndex = images.length -1;
         let currentIndex = 0;
 
         function moveSlider(n) {
