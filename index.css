@@ -990,8 +990,9 @@
   flex-shrink: 0;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--dl-color-default-tertirfarbe);
+  background-color: var(--dl-color-default-primrfarbe);
 }
+
 .startseite-startseite-text {
   gap: 24px;
   display: flex;
@@ -1056,13 +1057,12 @@
 }
 .startseite-copyright {
   gap: 10px;
-  width: 1600px;
   display: flex;
-  padding: 0 569px 8px 30px;
+  width: 100%;
   overflow: hidden;
-  align-items: center;
-  flex-shrink: 0;
-  background-color: var(--dl-color-default-tertirfarbe);
+  align-items: flex-start;
+  text-align: left;
+  background-color: var(--dl-color-default-primrfarbe);
 }
 .startseite-text80 {
   color: var(--dl-color-default-hintergrundfarbe);
