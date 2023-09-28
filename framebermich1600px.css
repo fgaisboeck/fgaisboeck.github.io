@@ -2,7 +2,6 @@
   width: 100%;
   display: flex;
   overflow: auto;
-  min-height: 100vh;
   align-items: center;
   flex-direction: column;
 }
@@ -21,7 +20,7 @@
 {     
   .framebermich1600px-framebermich1600px {
   width: 100%;
-  height: 2000px;
+  height: 1000px;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -54,6 +53,30 @@
   height: 1500px;
   position: absolute;
 }
+
+@media screen and (max-width: 912px) 
+{     
+  .framebermich1600px-rechteck-links {
+    top: -115px;
+    left: -200.7655029296875px;
+    width: 400px;
+    height: 1000px;
+    position: absolute;
+  }
+  .framebermich1600px-rechteck-rechts {
+    top: 0px;
+    left: 150px;
+    width: auto;
+    height: 0px;
+    position: absolute;
+  }
+  .framebermich1600px-rechteck-mitte {
+    display: none;
+  }
+
+}
+
+
 .framebermich1600px-text {
   top: 200px;
   left: 450px;
@@ -159,21 +182,6 @@
   {
     display: none;
   }
-}
-
-@media screen and (max-width: 912px) 
-{     
-  .framebermich1600px-framebermich1600px {
-  width: 100%;
-  height: 1130px;
-  display: flex;
-  overflow: hidden;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
-  background-color: var(--dl-color-default-hintergrundfarbe);
-}
-
 }
 
 
@@ -297,7 +305,7 @@
 
 .framebermich1600px-layer-blur2 {
   width:100%;
-  height: 100vh;
+  height: 10px;
 }
 .framebermich1600px-layer-blur1 {
   width: 100%;
