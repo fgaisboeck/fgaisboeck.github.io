@@ -840,6 +840,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  margin-top: 20px;
   background-color: var(--dl-color-default-primrfarbe);
 }
 .startseite-startseite3berschrift {
@@ -1012,6 +1013,9 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
+
+
 .startseite-text71 {
   color: var(--dl-color-default-hintergrundfarbe);
 }
@@ -1030,6 +1034,9 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
+
+
 .startseite-frame7 {
   gap: 10px;
   display: flex;
@@ -1051,6 +1058,56 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
+.image-container{
+  display: flex;
+  gap: 10px;
+}
+
+img{
+  height: 400px;
+  width: auto ;
+}
+
+.image-container1
+{
+  display: flex;
+  gap: 10px;
+}
+
+.image-container2
+{
+  display: flex;
+  gap: 10px;
+}
+
+@media screen and (max-width: 912px) 
+{     
+    
+.image-container{
+  display: flex;
+  gap: 10px;
+}
+
+img{
+  height: 175px;
+  width: auto ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.image-container1
+{
+  display: inline;
+  gap: 10px;
+}
+
+.image-container2
+{
+  display: inline;
+  gap: 10px;
+}
+}
+
 .startseite-copyright {
   gap: 10px;
   display: flex;
@@ -1059,6 +1116,61 @@
   align-items: flex-start;
   text-align: left;
   background-color: var(--dl-color-default-primrfarbe);
+}
+
+@media screen and (max-width: 912px) 
+{   
+  
+  .startseite-copyright {
+    gap: 10px;
+    font-size: 8px;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    align-items: flex-start;
+    text-align: left;
+    background-color: var(--dl-color-default-primrfarbe);
+  }
+  
+  .startseite-text70 {
+    color: rgba(33, 37, 29, 1);
+    height: auto;
+    font-size: 30px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Tektur;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .startseite-text73 {
+    color: var(--dl-color-default-hintergrundfarbe);
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Chakra Petch;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .startseite-text78 {
+    color: var(--dl-color-default-hintergrundfarbe);
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Chakra Petch;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
 }
 .startseite-text80 {
   color: var(--dl-color-default-hintergrundfarbe);
