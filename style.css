@@ -33,16 +33,16 @@
   --dl-space-space-fourunits: 64px;
   --dl-space-space-threeunits: 48px;
 
-  /*
-  green
+
+/*
   --dl-color-default-dunkelgrau: rgba(60, 62, 58, 1);
   --dl-color-default-primrfarbe: rgba(119, 206, 37, 1);
   --dl-color-default-tertirfarbe: rgba(181, 218, 0, 1);
   --dl-color-default-sekundrfarbe: rgba(31, 109, 19, 1);
-  */
+
   
 
-  /*
+  
   grey
   */
   --dl-color-default-dunkelgrau: rgba(60, 62, 58, 1);
@@ -50,6 +50,7 @@
   --dl-color-default-tertirfarbe: #e8e8e8e8;
   --dl-color-default-sekundrfarbe: black;
   
+
 
   --dl-space-space-oneandhalfunits: 24px;
   --dl-color-default-schriftfarewei: rgba(251, 255, 248, 1);
